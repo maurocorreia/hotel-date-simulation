@@ -29,12 +29,12 @@ function App() {
     dateArray.forEach((date) => {
       const dateInComparison = new Date(date);
       
-      // De 20/10/2022 até 27/10/2022.
+      // De 20/10/2022 até 27/10/2022 valor de 96 reais/dia.
       if(dateInComparison >= new Date('10/20/2022') && dateInComparison <= new Date('10/27/2022')){
         totalPrices += 96;
       }
       
-      // De 28/10/2022 até 30/11/2022.
+      // De 28/10/2022 até 30/11/2022 valor de 80 reais/dia.
       if(dateInComparison >= new Date('10/28/2022') && dateInComparison <= new Date('11/30/2022')){
         totalPrices += 80;
       }
